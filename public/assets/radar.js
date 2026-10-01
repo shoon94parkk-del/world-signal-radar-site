@@ -40,8 +40,8 @@
     const c=company();$('#company-avatar').style.background=c.color;$('#company-avatar').textContent=c.initials;
     $('#company-name').textContent=c.name;$('#ticker').textContent=c.ticker+' · AI 반도체';
     $('#star-company').textContent=S.stars.includes(c.name)?'★ 관심기업':'☆ 관심기업';$('#star-company').setAttribute('aria-pressed',S.stars.includes(c.name));
-    const ready=D.readiness.sources?.[c.source_id];
-    $('#overview').innerHTML=`<div class="metric"><label>관련 기술 발표</label><strong>${c.related_count}<small> 건</small></strong><small>확보 문서 ${c.document_count}건 중</small></div><button class="metric" type="button" data-open-quality aria-label="정보원 확인 상태 열기"><label>정보원 확인</label><strong style="font-size:18px">${esc(labels[c.quality])}</strong><small>${esc(c.quality==='degraded'?'커버리지 제한 있음':c.quality==='pending'?'자동 확인 준비 중':date(c.checked_at))}</small></button><div class="metric"><label>Signal Score</label><strong style="font-size:18px">관측 축적 중</strong><small>${ready?ready.consecutive_quality_days+' / 91일 최소 조건':'비교 가능한 기준선 준비 중'}</small></div>`;
+    const frequency=D.frequency?.components?.find(row=>row.company===c.name);
+    $('#overview').innerHTML=`<div class="metric"><label>관련 기술 발표</label><strong>${c.related_count}<small> 건</small></strong><small>확보 문서 ${c.document_count}건 중</small></div><button class="metric" type="button" data-open-quality aria-label="정보원 확인 상태 열기"><label>정보원 확인</label><strong style="font-size:18px">${esc(labels[c.quality])}</strong><small>${esc(c.quality==='degraded'?'커버리지 제한 있음':c.quality==='pending'?'자동 확인 준비 중':date(c.checked_at))}</small></button><button class="metric" type="button" data-open-frequency aria-label="변화 기준선 확인"><label>Signal Score</label><strong style="font-size:18px">종합점수 보류</strong><small>${frequency?'발표 계측 '+frequency.quality_days+' / 91일 · 기준 확인':'계측 범위·보류 이유 확인'}</small></button>`;
   }
   function emptyChart(title,explanation){$('#chart-empty').hidden=false;$('#chart-empty').innerHTML=`<strong>${esc(title)}</strong><p>${esc(explanation)}</p>`}
   function renderChart(){
@@ -137,6 +137,8 @@
     if(b.hasAttribute('data-graph-home')){S.graphFocus=null;renderResearch()}
     if(b.hasAttribute('data-export-graph'))exportJSON('radar-relations.json',D.graph);
     if(b.hasAttribute('data-open-quality'))$('#quality-dialog').showModal();
+    if(b.hasAttribute('data-open-frequency')){$('#frequency-content').innerHTML=window.RadarFrequency.render(D.frequency,S.company);$('#frequency-dialog').showModal()}
+    if(b.hasAttribute('data-export-frequency'))exportJSON('radar-frequency.json',D.frequency);
     if(b.dataset.close)$('#'+b.dataset.close).close();
   });
   $('#search').addEventListener('input',e=>{S.query=e.target.value.toLowerCase().trim();renderResearch();if(S.mode==='observations')renderChart()});
