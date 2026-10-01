@@ -6,6 +6,8 @@ The preview is a dated evidence snapshot and does not run automatic collection.
 
 Render workspace: Hoon_Lap. Service: world-signal-radar-hoon.
 Build: `python verify_release.py`. Publish path: `public`.
+Deploy branch: `main`. Auto-deploy: off (public Git URL mode).
+After pushing reviewed assets, trigger Manual Deploy in Render or use the Render MCP.
 The private source project is `shoon94parkk-del/world-signal-radar`.
 Updates are explicitly prepared from its validated `dist/` using `scripts/prepare_site_repo.py`.
 TradingView attribution and the vendor LICENSE/NOTICE are included in public/assets/vendor.

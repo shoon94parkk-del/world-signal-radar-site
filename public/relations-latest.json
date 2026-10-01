@@ -160,7 +160,9 @@
           "title": "ASML and TSMC Announce Initiative to Pioneer Industry Transition to Large-Format Photomasks for High NA EUV",
           "url": "https://pr.tsmc.com/english/news/3338",
           "source_id": "tsmc-news",
-          "stale": false
+          "stale": false,
+          "quote_ko": "ASML과 TSMC가 하이 NA EUV의 활용도를 높이기 위해 12인치 포토마스크 전환을 추진하는 공동 산업 이니셔티브를 발표했다.",
+          "title_ko": "ASML·TSMC, 하이 NA EUV용 대형 포토마스크 전환 추진"
         }
       ],
       "stale": false,
@@ -225,7 +227,9 @@
           "title": "ASML and TSMC Announce Initiative to Pioneer Industry Transition to Large-Format Photomasks for High NA EUV",
           "url": "https://pr.tsmc.com/english/news/3338",
           "source_id": "tsmc-news",
-          "stale": false
+          "stale": false,
+          "quote_ko": "TSMC는 2030년부터 첨단 노드의 대량 생산에 ASML의 하이 NA 기술을 사용할 계획이다. AI용 트랜지스터 구조가 복잡해짐에 따라 이 기술이 필요한 층수가 늘어날 것으로 예상한다.",
+          "title_ko": "ASML·TSMC, 하이 NA EUV용 대형 포토마스크 전환 추진"
         }
       ],
       "stale": false,
@@ -290,7 +294,9 @@
           "title": "“Behind AI’s Rapid Growth Lies Memory” — SK hynix Shares Its Next-Generation Memory Portfolio at the TSMC OIP Conference",
           "url": "https://news.skhynix.com/en/tsmc-oip-conference-2026/",
           "source_id": "sk-news",
-          "stale": false
+          "stale": false,
+          "quote_ko": "SK하이닉스는 TSMC OIP 행사에서 차세대 메모리 제품과 개발 전략을 소개했다. 2년 연속 올해의 파트너상을 받으며 TSMC와의 협력을 재확인했다고 설명한다.",
+          "title_ko": "SK하이닉스, TSMC 행사에서 차세대 메모리와 협력 관계 소개"
         }
       ],
       "stale": false,
@@ -355,7 +361,9 @@
           "title": "“Behind AI’s Rapid Growth Lies Memory” — SK hynix Shares Its Next-Generation Memory Portfolio at the TSMC OIP Conference",
           "url": "https://news.skhynix.com/en/tsmc-oip-conference-2026/",
           "source_id": "sk-news",
-          "stale": false
+          "stale": false,
+          "quote_ko": "전시장에는 SK하이닉스의 12단 36GB HBM4와 96GB SOCAMM2를 장착한 엔비디아 Vera Rubin 슈퍼칩이 전시됐다. 이 문단은 전시 구성과 제품의 역할을 설명한다.",
+          "title_ko": "SK하이닉스, TSMC 행사에서 차세대 메모리와 협력 관계 소개"
         }
       ],
       "stale": false,
@@ -420,7 +428,9 @@
           "title": "“Behind AI’s Rapid Growth Lies Memory” — SK hynix Shares Its Next-Generation Memory Portfolio at the TSMC OIP Conference",
           "url": "https://news.skhynix.com/en/tsmc-oip-conference-2026/",
           "source_id": "sk-news",
-          "stale": false
+          "stale": false,
+          "quote_ko": "전시된 슈퍼칩 주위에는 12단 48GB HBM4E, 16단 48GB HBM4, 12단 36GB HBM3E와 192GB SOCAMM2가 함께 놓였다. 기존 가속기에 장착된 메모리와 차세대 제품군을 비교해 보여준다.",
+          "title_ko": "SK하이닉스, TSMC 행사에서 차세대 메모리와 협력 관계 소개"
         }
       ],
       "stale": false,
@@ -485,7 +495,9 @@
           "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
           "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
           "source_id": "nvidia-news",
-          "stale": false
+          "stale": false,
+          "quote_ko": "엔비디아는 Vera Rubin 플랫폼의 Spectrum-6 스위치가 탈착식 광학 모듈과 칩 패키지에 광학 부품을 함께 넣는 CPO를 모두 지원하며 대규모 AI 팩토리에 도입되고 있다고 발표했다.",
+          "title_ko": "엔비디아, 2027 회계연도 2분기 실적 발표"
         }
       ],
       "stale": false,
@@ -552,7 +564,9 @@
           "title": "[Tech Note] Hybrid Bonding: Evolving into a Foundational Technology for Improving Semiconductor Performance",
           "url": "https://news.skhynix.com/en/tech-note-series-ep2/",
           "source_id": "sk-news",
-          "stale": false
+          "stale": false,
+          "quote_ko": "기술 해설은 하이브리드 본딩을 적용한 여러 기업의 칩을 예로 들고, 엔비디아·브로드컴 제품의 CPO 적용도 언급한다. 향후 메모리·디스플레이 등으로 적용이 넓어질 수 있다는 전망이며 브로드컴의 자체 발표는 아니다.",
+          "title_ko": "하이브리드 본딩: 반도체 성능을 높이는 연결 기술"
         }
       ],
       "stale": false,
@@ -617,7 +631,9 @@
           "title": "[Tech Note] Hybrid Bonding: Evolving into a Foundational Technology for Improving Semiconductor Performance",
           "url": "https://news.skhynix.com/en/tech-note-series-ep2/",
           "source_id": "sk-news",
-          "stale": false
+          "stale": false,
+          "quote_ko": "기술 해설은 기존 열압착 본딩을 최대한 활용하면서 하이브리드 본딩으로 단계적으로 이동할 수 있다고 전망한다. 20단을 넘는 적층이 예상되는 HBM4E·HBM5에서 본격 채택 가능성이 높다는 견해이며 확정 양산 일정은 아니다.",
+          "title_ko": "하이브리드 본딩: 반도체 성능을 높이는 연결 기술"
         }
       ],
       "stale": false,
@@ -682,7 +698,9 @@
           "title": "Samsung To Invest USD 1 Billion in AI Infrastructure Company Helix",
           "url": "https://news.samsung.com/global/samsung-to-invest-usd-1-billion-in-ai-infrastructure-company-helix",
           "source_id": "samsung-news",
-          "stale": false
+          "stale": false,
+          "quote_ko": "삼성전자·삼성물산·삼성SDS·삼성SDI·삼성생명·삼성화재가 KKR이 설립한 AI 인프라 기업 헬릭스에 합산 10억 달러를 투자한다고 발표했다.",
+          "title_ko": "삼성 계열사 6곳, AI 인프라 기업 헬릭스에 합산 10억 달러 투자 발표"
         }
       ],
       "stale": false,
@@ -747,7 +765,9 @@
           "title": "Micron Advances Memory Innovation With the World's First Ultra-Dense Module for Next-Generation Servers",
           "url": "https://investors.micron.com/news/press-release/2026/Micron-Advances-Memory-Innovation-With-the-Worlds-First-Ultra-Dense-Module-for-Next-Generation-Servers/default.aspx",
           "source_id": "micron-ir-news",
-          "stale": false
+          "stale": false,
+          "quote_ko": "마이크론은 여러 서버 플랫폼에서 512GB DDR5 모듈을 시연했다고 발표했다. AMD와 인텔이 이 모듈을 검증하고 있으며 향후 최대 9,200 MT/s 속도를 제공할 예정이라고 설명한다.",
+          "title_ko": "마이크론, 차세대 서버용 512GB DDR5 모듈 시연"
         }
       ],
       "stale": false,
@@ -812,7 +832,9 @@
           "title": "Micron Advances Memory Innovation With the World's First Ultra-Dense Module for Next-Generation Servers",
           "url": "https://investors.micron.com/news/press-release/2026/Micron-Advances-Memory-Innovation-With-the-Worlds-First-Ultra-Dense-Module-for-Next-Generation-Servers/default.aspx",
           "source_id": "micron-ir-news",
-          "stale": false
+          "stale": false,
+          "quote_ko": "마이크론은 여러 서버 플랫폼에서 512GB DDR5 모듈을 시연했다고 발표했다. AMD와 인텔이 이 모듈을 검증하고 있으며 향후 최대 9,200 MT/s 속도를 제공할 예정이라고 설명한다.",
+          "title_ko": "마이크론, 차세대 서버용 512GB DDR5 모듈 시연"
         }
       ],
       "stale": false,
