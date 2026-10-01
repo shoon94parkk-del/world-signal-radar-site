@@ -1,0 +1,14 @@
+{
+  "assets/chart-data.js": "9671ccfa928fdc6347e322d9013cde83cf59577b7d58862a032a4330f9c03ac9",
+  "assets/graph-view.js": "000489f861d4a162952dae70130881f4db75d9b851b9abf5f8bc7a8b398b3a65",
+  "assets/radar.css": "0e62661c173f64c644071eb573639fbac07e567353c87f3e925a1bd47974068b",
+  "assets/radar.js": "9d7e56c2eb45afb3bff371d29685ab48aa3c330b6be0c18b61a735fb9381b324",
+  "assets/vendor/LICENSE": "0246b1259dfb7a545377fce4e2e2222b1b72947c711f3740a5c9c0b4ff49ae51",
+  "assets/vendor/lightweight-charts.standalone.production.js": "e21cc5caa0226ef30bd8549c50b9ef926615f2a4ee6b4e486353477a55f598cf",
+  "assets/vendor/NOTICE": "118049af93c142225eed83c34aa3a1e299fab5f9d495fd99e523505059adffef",
+  "index.html": "a278a9880cf7a345273283b517d046c6ca12d6e6d68050cc45a8219c018deb69",
+  "radar-report.html": "bd0e8f138036e5cccaf3c8cde2a24b328066424cab150177cc417a8d60f3d1a0",
+  "radar.html": "a278a9880cf7a345273283b517d046c6ca12d6e6d68050cc45a8219c018deb69",
+  "relations-latest.json": "20be23c02c7b4d31894abfc46658cecd60c19d31e9a16da9289ba15e9b7018f6",
+  "release.json": "a77f68957e5525865495fdb55842dadd10da11ce509f05e3742d500541167539"
+}
