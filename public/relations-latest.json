@@ -939,7 +939,9 @@
       ],
       "price_direction": "undetermined",
       "workspace_id": "local",
-      "related_hypotheses": []
+      "related_hypotheses": [
+        "fb063cba-c5d0-42ac-8ed7-0899a5cd6de3"
+      ]
     }
   ],
   "scope": "Analyst-reviewed claims linked to stored paragraphs; not a verified supply-chain map",
