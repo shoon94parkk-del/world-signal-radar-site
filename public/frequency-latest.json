@@ -1,13 +1,386 @@
 {
-  "as_of": "2026-10-01T18:23:05.914864+00:00",
+  "as_of": "2026-10-01T18:55:28.654827+00:00",
   "rule_version": "announcement-frequency-v1",
   "timezone": "Asia/Seoul",
   "closed_through": "2026-10-01",
   "components": [
     {
+      "source_id": "amd-ir",
+      "company": "AMD",
+      "cohort": "earnings-scope-5:amd-html-v1",
+      "coverage_scope": "AMD 공식 실적 발표 · 최신 5건 목록",
+      "theme": "CPO · Silicon Photonics",
+      "metric": "announcement_frequency",
+      "rule_version": "announcement-frequency-v1",
+      "status": "insufficient_coverage",
+      "quality_days": 0,
+      "required_days": 91,
+      "coverage_gaps": {
+        "not_observed": 91,
+        "not_instrumented": 0,
+        "not_monitoring": 0,
+        "partial_or_gap": 0
+      },
+      "windows": [
+        {
+          "start": "2026-07-03",
+          "end": "2026-07-09",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-07-10",
+          "end": "2026-07-16",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-07-17",
+          "end": "2026-07-23",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-07-24",
+          "end": "2026-07-30",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-07-31",
+          "end": "2026-08-06",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-08-07",
+          "end": "2026-08-13",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-08-14",
+          "end": "2026-08-20",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-08-21",
+          "end": "2026-08-27",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-08-28",
+          "end": "2026-09-03",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-09-04",
+          "end": "2026-09-10",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-09-11",
+          "end": "2026-09-17",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-09-18",
+          "end": "2026-09-24",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-09-25",
+          "end": "2026-10-01",
+          "quality_days": 0,
+          "count": null
+        }
+      ],
+      "current_count": null,
+      "baseline_counts": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "baseline_median": null,
+      "baseline_mad": null,
+      "scale": null,
+      "standardized_change": null,
+      "increase_candidate": false,
+      "duplicate_posts": 0,
+      "evidence": [],
+      "signal_score": null,
+      "independence_verified": false,
+      "price_direction": "undetermined",
+      "reason": "현재 7일과 직전 12주 모두 계측된 양질 관측이 필요합니다. 발표 한 종류로 종합 Signal Score를 만들지 않습니다."
+    },
+    {
+      "source_id": "amd-ir",
+      "company": "AMD",
+      "cohort": "earnings-scope-5:amd-html-v1",
+      "coverage_scope": "AMD 공식 실적 발표 · 최신 5건 목록",
+      "theme": "HBM · HBM4",
+      "metric": "announcement_frequency",
+      "rule_version": "announcement-frequency-v1",
+      "status": "insufficient_coverage",
+      "quality_days": 0,
+      "required_days": 91,
+      "coverage_gaps": {
+        "not_observed": 91,
+        "not_instrumented": 0,
+        "not_monitoring": 0,
+        "partial_or_gap": 0
+      },
+      "windows": [
+        {
+          "start": "2026-07-03",
+          "end": "2026-07-09",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-07-10",
+          "end": "2026-07-16",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-07-17",
+          "end": "2026-07-23",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-07-24",
+          "end": "2026-07-30",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-07-31",
+          "end": "2026-08-06",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-08-07",
+          "end": "2026-08-13",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-08-14",
+          "end": "2026-08-20",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-08-21",
+          "end": "2026-08-27",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-08-28",
+          "end": "2026-09-03",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-09-04",
+          "end": "2026-09-10",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-09-11",
+          "end": "2026-09-17",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-09-18",
+          "end": "2026-09-24",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-09-25",
+          "end": "2026-10-01",
+          "quality_days": 0,
+          "count": null
+        }
+      ],
+      "current_count": null,
+      "baseline_counts": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "baseline_median": null,
+      "baseline_mad": null,
+      "scale": null,
+      "standardized_change": null,
+      "increase_candidate": false,
+      "duplicate_posts": 0,
+      "evidence": [],
+      "signal_score": null,
+      "independence_verified": false,
+      "price_direction": "undetermined",
+      "reason": "현재 7일과 직전 12주 모두 계측된 양질 관측이 필요합니다. 발표 한 종류로 종합 Signal Score를 만들지 않습니다."
+    },
+    {
+      "source_id": "amd-ir",
+      "company": "AMD",
+      "cohort": "earnings-scope-5:amd-html-v1",
+      "coverage_scope": "AMD 공식 실적 발표 · 최신 5건 목록",
+      "theme": "Advanced Packaging",
+      "metric": "announcement_frequency",
+      "rule_version": "announcement-frequency-v1",
+      "status": "insufficient_coverage",
+      "quality_days": 0,
+      "required_days": 91,
+      "coverage_gaps": {
+        "not_observed": 91,
+        "not_instrumented": 0,
+        "not_monitoring": 0,
+        "partial_or_gap": 0
+      },
+      "windows": [
+        {
+          "start": "2026-07-03",
+          "end": "2026-07-09",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-07-10",
+          "end": "2026-07-16",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-07-17",
+          "end": "2026-07-23",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-07-24",
+          "end": "2026-07-30",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-07-31",
+          "end": "2026-08-06",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-08-07",
+          "end": "2026-08-13",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-08-14",
+          "end": "2026-08-20",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-08-21",
+          "end": "2026-08-27",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-08-28",
+          "end": "2026-09-03",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-09-04",
+          "end": "2026-09-10",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-09-11",
+          "end": "2026-09-17",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-09-18",
+          "end": "2026-09-24",
+          "quality_days": 0,
+          "count": null
+        },
+        {
+          "start": "2026-09-25",
+          "end": "2026-10-01",
+          "quality_days": 0,
+          "count": null
+        }
+      ],
+      "current_count": null,
+      "baseline_counts": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "baseline_median": null,
+      "baseline_mad": null,
+      "scale": null,
+      "standardized_change": null,
+      "increase_candidate": false,
+      "duplicate_posts": 0,
+      "evidence": [],
+      "signal_score": null,
+      "independence_verified": false,
+      "price_direction": "undetermined",
+      "reason": "현재 7일과 직전 12주 모두 계측된 양질 관측이 필요합니다. 발표 한 종류로 종합 Signal Score를 만들지 않습니다."
+    },
+    {
       "source_id": "nvidia-news",
       "company": "NVIDIA",
       "cohort": "v1",
+      "coverage_scope": "공식 RSS · 최근 목록 최대 20건",
       "theme": "CPO · Silicon Photonics",
       "metric": "announcement_frequency",
       "rule_version": "announcement-frequency-v1",
@@ -131,6 +504,7 @@
       "source_id": "nvidia-news",
       "company": "NVIDIA",
       "cohort": "v1",
+      "coverage_scope": "공식 RSS · 최근 목록 최대 20건",
       "theme": "HBM · HBM4",
       "metric": "announcement_frequency",
       "rule_version": "announcement-frequency-v1",
@@ -254,6 +628,7 @@
       "source_id": "nvidia-news",
       "company": "NVIDIA",
       "cohort": "v1",
+      "coverage_scope": "공식 RSS · 최근 목록 최대 20건",
       "theme": "Advanced Packaging",
       "metric": "announcement_frequency",
       "rule_version": "announcement-frequency-v1",
@@ -377,6 +752,7 @@
       "source_id": "sk-news",
       "company": "SK hynix",
       "cohort": "tech-and-ai-v1",
+      "coverage_scope": "공식 RSS · 최근 목록 최대 10건",
       "theme": "CPO · Silicon Photonics",
       "metric": "announcement_frequency",
       "rule_version": "announcement-frequency-v1",
@@ -500,6 +876,7 @@
       "source_id": "sk-news",
       "company": "SK hynix",
       "cohort": "tech-and-ai-v1",
+      "coverage_scope": "공식 RSS · 최근 목록 최대 10건",
       "theme": "HBM · HBM4",
       "metric": "announcement_frequency",
       "rule_version": "announcement-frequency-v1",
@@ -623,6 +1000,7 @@
       "source_id": "sk-news",
       "company": "SK hynix",
       "cohort": "tech-and-ai-v1",
+      "coverage_scope": "공식 RSS · 최근 목록 최대 10건",
       "theme": "Advanced Packaging",
       "metric": "announcement_frequency",
       "rule_version": "announcement-frequency-v1",
@@ -746,6 +1124,7 @@
       "source_id": "samsung-news",
       "company": "Samsung Electronics",
       "cohort": "v1",
+      "coverage_scope": "공식 RSS · 최근 목록 최대 50건",
       "theme": "CPO · Silicon Photonics",
       "metric": "announcement_frequency",
       "rule_version": "announcement-frequency-v1",
@@ -869,6 +1248,7 @@
       "source_id": "samsung-news",
       "company": "Samsung Electronics",
       "cohort": "v1",
+      "coverage_scope": "공식 RSS · 최근 목록 최대 50건",
       "theme": "HBM · HBM4",
       "metric": "announcement_frequency",
       "rule_version": "announcement-frequency-v1",
@@ -992,6 +1372,7 @@
       "source_id": "samsung-news",
       "company": "Samsung Electronics",
       "cohort": "v1",
+      "coverage_scope": "공식 RSS · 최근 목록 최대 50건",
       "theme": "Advanced Packaging",
       "metric": "announcement_frequency",
       "rule_version": "announcement-frequency-v1",
@@ -1115,6 +1496,7 @@
       "source_id": "broadcom-ir-news",
       "company": "Broadcom",
       "cohort": "financial-news-html-v1",
+      "coverage_scope": "공식 보도자료 HTML · 현재 목록 최대 50건",
       "theme": "CPO · Silicon Photonics",
       "metric": "announcement_frequency",
       "rule_version": "announcement-frequency-v1",
@@ -1238,6 +1620,7 @@
       "source_id": "broadcom-ir-news",
       "company": "Broadcom",
       "cohort": "financial-news-html-v1",
+      "coverage_scope": "공식 보도자료 HTML · 현재 목록 최대 50건",
       "theme": "HBM · HBM4",
       "metric": "announcement_frequency",
       "rule_version": "announcement-frequency-v1",
@@ -1361,6 +1744,7 @@
       "source_id": "broadcom-ir-news",
       "company": "Broadcom",
       "cohort": "financial-news-html-v1",
+      "coverage_scope": "공식 보도자료 HTML · 현재 목록 최대 50건",
       "theme": "Advanced Packaging",
       "metric": "announcement_frequency",
       "rule_version": "announcement-frequency-v1",
@@ -1484,6 +1868,7 @@
       "source_id": "micron-ir-news",
       "company": "Micron",
       "cohort": "pressrelease-html-v1",
+      "coverage_scope": "공식 RSS · 최근 목록 최대 10건",
       "theme": "CPO · Silicon Photonics",
       "metric": "announcement_frequency",
       "rule_version": "announcement-frequency-v1",
@@ -1607,6 +1992,7 @@
       "source_id": "micron-ir-news",
       "company": "Micron",
       "cohort": "pressrelease-html-v1",
+      "coverage_scope": "공식 RSS · 최근 목록 최대 10건",
       "theme": "HBM · HBM4",
       "metric": "announcement_frequency",
       "rule_version": "announcement-frequency-v1",
@@ -1730,6 +2116,7 @@
       "source_id": "micron-ir-news",
       "company": "Micron",
       "cohort": "pressrelease-html-v1",
+      "coverage_scope": "공식 RSS · 최근 목록 최대 10건",
       "theme": "Advanced Packaging",
       "metric": "announcement_frequency",
       "rule_version": "announcement-frequency-v1",
@@ -1853,6 +2240,7 @@
       "source_id": "tsmc-news",
       "company": "TSMC",
       "cohort": "latest-news-html-v1",
+      "coverage_scope": "공식 보도자료 HTML · 현재 목록 최대 20건",
       "theme": "CPO · Silicon Photonics",
       "metric": "announcement_frequency",
       "rule_version": "announcement-frequency-v1",
@@ -1976,6 +2364,7 @@
       "source_id": "tsmc-news",
       "company": "TSMC",
       "cohort": "latest-news-html-v1",
+      "coverage_scope": "공식 보도자료 HTML · 현재 목록 최대 20건",
       "theme": "HBM · HBM4",
       "metric": "announcement_frequency",
       "rule_version": "announcement-frequency-v1",
@@ -2099,6 +2488,7 @@
       "source_id": "tsmc-news",
       "company": "TSMC",
       "cohort": "latest-news-html-v1",
+      "coverage_scope": "공식 보도자료 HTML · 현재 목록 최대 20건",
       "theme": "Advanced Packaging",
       "metric": "announcement_frequency",
       "rule_version": "announcement-frequency-v1",

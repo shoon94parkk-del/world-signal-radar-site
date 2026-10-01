@@ -865,8 +865,8 @@
     },
     {
       "relation_id": "313b9a6f-2aa1-4dda-9ca6-28d6c85de456",
-      "previous_id": null,
-      "created_at": "2026-10-01T18:21:50.414268+00:00",
+      "previous_id": "a4a93630-7dec-4ad9-b6be-94e20d3440de",
+      "created_at": "2026-10-01T18:55:27.596791+00:00",
       "source_entity_id": "cf748ff0-d9ca-476b-8d10-4b8e19a20efb",
       "target_entity_id": "85c3e543-0f96-4eea-b01a-5b0252ab79c8",
       "kind": "develops",
@@ -874,9 +874,9 @@
       "certainty": "confirmed",
       "confidence": "unassessed",
       "status": "active",
-      "note": "전시 발표의 공식 표현만 확인했다. CPO 제품별 양산 물량·고객 주문·매출과 투자 증가의 증거는 아니다.",
+      "note": "메타데이터 변경을 재검토했다. 본문·제목·발행일·추출 버전과 해당 문단이 동일해 근거를 새 원문 버전에 연결한다. 기존 전시 발표 판단과 상업 출하 미확인 한계는 유지한다.",
       "reviewed_by": "Codex analyst",
-      "version_id": "a4a93630-7dec-4ad9-b6be-94e20d3440de",
+      "version_id": "683e4e46-31d2-417a-b926-8cd7677f62c8",
       "id": "313b9a6f-2aa1-4dda-9ca6-28d6c85de456",
       "source": {
         "id": "cf748ff0-d9ca-476b-8d10-4b8e19a20efb",
@@ -896,14 +896,14 @@
       },
       "evidence": [
         {
-          "document_version_id": "1c0938c4-6c1e-4fc4-b0ab-aef42f8e8a5a",
-          "span_id": "9a67dd34-dafa-4dbf-98aa-f72a96e0c1d5",
+          "document_version_id": "104d8cbf-bdde-4675-a633-c264fbf6f0df",
+          "span_id": "6c434e43-9fb9-4610-a6ea-2641f0ce5b63",
           "stance": "supporting",
           "quote": "PALO ALTO, Calif. , March 12, 2026 (GLOBE NEWSWIRE) -- Broadcom Inc. (NASDAQ: AVGO), a global technology leader that designs, develops and supplies semiconductor and infrastructure software solutions, today announced the expansion of its open, scalable, and power-efficient AI infrastructure portfolio for gigawatt-scale AI clusters. These industry-leading solutions – including the 3.5D XPU, 102.4T Ethernet switch with co-packaged optics (CPO), 400G/lane optical DSP, 200G/lane Ethernet retimers and AEC, and PCIe Gen6 switches and retimers – will be showcased at the 2026 Optical Fiber Communications Conference and Exhibition (OFC) from March 15-19 in Los Angeles . Broadcom’s demonstrations and presentations will highlight its end-to-end connectivity solutions paving the path for the 200T AI era.",
           "locator": ".node__content / p 1",
-          "raw_hash": "c9376dd95c27271ca7145f17cd2db06ef0fd3f0faaa194c89363587a4fe0c79b",
+          "raw_hash": "e39ab3a70521502a96ec4e87af9101ed88ee8594e8180eb9b426640829142160",
           "published_at": "2026-03-12T00:00:00+00:00",
-          "recorded_at": "2026-10-01T18:07:49.827497+00:00",
+          "recorded_at": "2026-10-01T18:48:02.638583+00:00",
           "title": "Broadcom Showcases Industry-Leading Solutions for Scaling AI Infrastructure at OFC 2026",
           "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-showcases-industry-leading-solutions-scaling-ai",
           "source_id": "broadcom-ir-news",
@@ -923,6 +923,17 @@
           "confidence": "unassessed",
           "status": "active",
           "note": "전시 발표의 공식 표현만 확인했다. CPO 제품별 양산 물량·고객 주문·매출과 투자 증가의 증거는 아니다.",
+          "reviewed_by": "Codex analyst"
+        },
+        {
+          "id": "683e4e46-31d2-417a-b926-8cd7677f62c8",
+          "previous_id": "a4a93630-7dec-4ad9-b6be-94e20d3440de",
+          "created_at": "2026-10-01T18:55:27.596791+00:00",
+          "claim": "브로드컴은 OFC 2026에서 CPO를 갖춘 102.4T 이더넷 스위치 전시를 발표했다.",
+          "certainty": "confirmed",
+          "confidence": "unassessed",
+          "status": "active",
+          "note": "메타데이터 변경을 재검토했다. 본문·제목·발행일·추출 버전과 해당 문단이 동일해 근거를 새 원문 버전에 연결한다. 기존 전시 발표 판단과 상업 출하 미확인 한계는 유지한다.",
           "reviewed_by": "Codex analyst"
         }
       ],
