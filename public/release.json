@@ -1,9 +1,9 @@
 {
-  "revision": "9953c57f8c8ef00fc2a7c6661ed75bef5f43f5c7",
-  "snapshot_at": "2026-10-01T17:05:03.909548+00:00",
-  "built_at": "2026-10-01T17:12:55.030679+00:00",
+  "revision": "ad3bd19a4258ffa29473f89352050a6ef421c096",
+  "snapshot_at": "2026-10-01T18:23:05.914864+00:00",
+  "built_at": "2026-10-01T18:26:26.559929+00:00",
   "mode": "published_snapshot",
   "automatic_collection": false,
-  "documents": 131,
-  "relations": 11
+  "documents": 167,
+  "relations": 12
 }

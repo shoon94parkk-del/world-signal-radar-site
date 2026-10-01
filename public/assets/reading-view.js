@@ -11,6 +11,13 @@
   const name=v=>names[v]||v,theme=v=>themes[v]||v;
   const title=d=>d?.ko?.status==='reviewed'?d.ko.title:d?.title||'자료 확인 대기';
   const summary=d=>d?.ko?.status==='reviewed'?d.ko.summary:'한국어 요약을 준비 중입니다. 영어 원문은 근거 상세에서 확인할 수 있습니다.';
+  function contextHtml(doc,stories){
+    const linked=(stories||[]).flatMap(story=>story.observations
+      .filter(o=>o.status==='available'&&o.version_id===doc.id&&o.raw_hash===doc.raw_hash)
+      .map(observation=>({story,observation})));
+    if(!linked.length)return '';
+    return `<section class="korean-summary"><h3>이 자료가 연결되는 신호</h3>${linked.map(({story,observation})=>`<p><b>${esc(story.label)} · ${esc(observation.stage)}</b><br>${esc(observation.observed_ko)}</p><p class="detail-note">다음 판단의 갈림길: ${esc(story.next_checks[0])}</p><button class="quiet small" data-reading-context="${esc(story.id)}">다른 기업의 근거와 연결해서 보기 ↗</button>`).join('')}<small>검토한 원문 문단이 사례에 연결돼 있습니다. 실제 확대와 주가 방향은 후속 증거로 판단합니다.</small></section>`;
+  }
   function summaryHtml(doc){
     const ko=doc.ko;
     if(ko?.status!=='reviewed')return '<p class="detail-note">한국어 요약 준비 중 · 이 원문 버전의 요약을 아직 검토하지 않았습니다.</p>';
@@ -31,5 +38,5 @@
     <p class="reading-pitfall"><b>헷갈리기 쉬운 점</b> ${esc(story.pitfall)}</p><div class="reading-actions"><button class="quiet" data-reading-graph="${esc(story.id)}">관련 기업의 관계 그래프 보기</button><button class="quiet" data-export-stories>이 사례와 근거 내보내기</button></div></div>
     <details class="reading-glossary"><summary>용어를 쉽게 읽기 · HBM / CPO / 설비투자</summary><dl>${Object.entries(terms).map(([term,meaning])=>`<dt>${esc(term)}</dt><dd>${esc(meaning)}</dd>`).join('')}</dl></details>`;
   }
-  window.RadarReading={render,name,theme,title,summary,summaryHtml,confidence:v=>confidence[v]||v};
+  window.RadarReading={render,name,theme,title,summary,summaryHtml,contextHtml,confidence:v=>confidence[v]||v};
 })();

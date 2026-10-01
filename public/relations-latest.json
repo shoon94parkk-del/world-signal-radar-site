@@ -113,6 +113,14 @@
       "canonical": "amd",
       "label": "AMD",
       "created_at": "2026-10-01T14:46:40.958743+00:00"
+    },
+    {
+      "id": "85c3e543-0f96-4eea-b01a-5b0252ab79c8",
+      "workspace_id": "local",
+      "kind": "technology",
+      "canonical": "cpo",
+      "label": "CPO",
+      "created_at": "2026-10-01T18:21:50.414268+00:00"
     }
   ],
   "edges": [
@@ -848,6 +856,73 @@
           "confidence": "high",
           "status": "active",
           "note": "Micron의 참여사 설명 확인. AMD의 별도 확인이나 구매 계약·매출 기여는 미확인.",
+          "reviewed_by": "Codex analyst"
+        }
+      ],
+      "price_direction": "undetermined",
+      "workspace_id": "local",
+      "related_hypotheses": []
+    },
+    {
+      "relation_id": "313b9a6f-2aa1-4dda-9ca6-28d6c85de456",
+      "previous_id": null,
+      "created_at": "2026-10-01T18:21:50.414268+00:00",
+      "source_entity_id": "cf748ff0-d9ca-476b-8d10-4b8e19a20efb",
+      "target_entity_id": "85c3e543-0f96-4eea-b01a-5b0252ab79c8",
+      "kind": "develops",
+      "claim": "브로드컴은 OFC 2026에서 CPO를 갖춘 102.4T 이더넷 스위치 전시를 발표했다.",
+      "certainty": "confirmed",
+      "confidence": "unassessed",
+      "status": "active",
+      "note": "전시 발표의 공식 표현만 확인했다. CPO 제품별 양산 물량·고객 주문·매출과 투자 증가의 증거는 아니다.",
+      "reviewed_by": "Codex analyst",
+      "version_id": "a4a93630-7dec-4ad9-b6be-94e20d3440de",
+      "id": "313b9a6f-2aa1-4dda-9ca6-28d6c85de456",
+      "source": {
+        "id": "cf748ff0-d9ca-476b-8d10-4b8e19a20efb",
+        "workspace_id": "local",
+        "kind": "company",
+        "canonical": "broadcom",
+        "label": "Broadcom",
+        "created_at": "2026-10-01T14:44:11.737392+00:00"
+      },
+      "target": {
+        "id": "85c3e543-0f96-4eea-b01a-5b0252ab79c8",
+        "workspace_id": "local",
+        "kind": "technology",
+        "canonical": "cpo",
+        "label": "CPO",
+        "created_at": "2026-10-01T18:21:50.414268+00:00"
+      },
+      "evidence": [
+        {
+          "document_version_id": "1c0938c4-6c1e-4fc4-b0ab-aef42f8e8a5a",
+          "span_id": "9a67dd34-dafa-4dbf-98aa-f72a96e0c1d5",
+          "stance": "supporting",
+          "quote": "PALO ALTO, Calif. , March 12, 2026 (GLOBE NEWSWIRE) -- Broadcom Inc. (NASDAQ: AVGO), a global technology leader that designs, develops and supplies semiconductor and infrastructure software solutions, today announced the expansion of its open, scalable, and power-efficient AI infrastructure portfolio for gigawatt-scale AI clusters. These industry-leading solutions – including the 3.5D XPU, 102.4T Ethernet switch with co-packaged optics (CPO), 400G/lane optical DSP, 200G/lane Ethernet retimers and AEC, and PCIe Gen6 switches and retimers – will be showcased at the 2026 Optical Fiber Communications Conference and Exhibition (OFC) from March 15-19 in Los Angeles . Broadcom’s demonstrations and presentations will highlight its end-to-end connectivity solutions paving the path for the 200T AI era.",
+          "locator": ".node__content / p 1",
+          "raw_hash": "c9376dd95c27271ca7145f17cd2db06ef0fd3f0faaa194c89363587a4fe0c79b",
+          "published_at": "2026-03-12T00:00:00+00:00",
+          "recorded_at": "2026-10-01T18:07:49.827497+00:00",
+          "title": "Broadcom Showcases Industry-Leading Solutions for Scaling AI Infrastructure at OFC 2026",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-showcases-industry-leading-solutions-scaling-ai",
+          "source_id": "broadcom-ir-news",
+          "stale": false,
+          "quote_ko": "브로드컴은 OFC에서 CPO를 갖춘 102.4T 이더넷 스위치를 전시한다고 발표했다. CPO 제품별 출하 규모는 이 문단에서 확인되지 않는다.",
+          "title_ko": "브로드컴, OFC 2026에서 CPO·광통신 제품군 전시 예고"
+        }
+      ],
+      "stale": false,
+      "history": [
+        {
+          "id": "a4a93630-7dec-4ad9-b6be-94e20d3440de",
+          "previous_id": null,
+          "created_at": "2026-10-01T18:21:50.414268+00:00",
+          "claim": "브로드컴은 OFC 2026에서 CPO를 갖춘 102.4T 이더넷 스위치 전시를 발표했다.",
+          "certainty": "confirmed",
+          "confidence": "unassessed",
+          "status": "active",
+          "note": "전시 발표의 공식 표현만 확인했다. CPO 제품별 양산 물량·고객 주문·매출과 투자 증가의 증거는 아니다.",
           "reviewed_by": "Codex analyst"
         }
       ],

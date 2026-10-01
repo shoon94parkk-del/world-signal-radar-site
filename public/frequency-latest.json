@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-01T17:05:03.909548+00:00",
+  "as_of": "2026-10-01T18:23:05.914864+00:00",
   "rule_version": "announcement-frequency-v1",
   "timezone": "Asia/Seoul",
   "closed_through": "2026-10-01",
@@ -1114,7 +1114,7 @@
     {
       "source_id": "broadcom-ir-news",
       "company": "Broadcom",
-      "cohort": "v1",
+      "cohort": "financial-news-html-v1",
       "theme": "CPO · Silicon Photonics",
       "metric": "announcement_frequency",
       "rule_version": "announcement-frequency-v1",
@@ -1122,8 +1122,8 @@
       "quality_days": 0,
       "required_days": 91,
       "coverage_gaps": {
-        "not_observed": 88,
-        "not_instrumented": 3,
+        "not_observed": 91,
+        "not_instrumented": 0,
         "not_monitoring": 0,
         "partial_or_gap": 0
       },
@@ -1237,7 +1237,7 @@
     {
       "source_id": "broadcom-ir-news",
       "company": "Broadcom",
-      "cohort": "v1",
+      "cohort": "financial-news-html-v1",
       "theme": "HBM · HBM4",
       "metric": "announcement_frequency",
       "rule_version": "announcement-frequency-v1",
@@ -1245,8 +1245,8 @@
       "quality_days": 0,
       "required_days": 91,
       "coverage_gaps": {
-        "not_observed": 88,
-        "not_instrumented": 3,
+        "not_observed": 91,
+        "not_instrumented": 0,
         "not_monitoring": 0,
         "partial_or_gap": 0
       },
@@ -1360,7 +1360,7 @@
     {
       "source_id": "broadcom-ir-news",
       "company": "Broadcom",
-      "cohort": "v1",
+      "cohort": "financial-news-html-v1",
       "theme": "Advanced Packaging",
       "metric": "announcement_frequency",
       "rule_version": "announcement-frequency-v1",
@@ -1368,8 +1368,8 @@
       "quality_days": 0,
       "required_days": 91,
       "coverage_gaps": {
-        "not_observed": 88,
-        "not_instrumented": 3,
+        "not_observed": 91,
+        "not_instrumented": 0,
         "not_monitoring": 0,
         "partial_or_gap": 0
       },
