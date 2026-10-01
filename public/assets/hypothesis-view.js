@@ -36,6 +36,7 @@
       <details class="hypothesis-reviews"><summary>이 기간의 검토 기록 ${reviews.length}개</summary>${reviews.map(row=>`<article><span class="chip">${esc(stance[row.decision])}</span><p>${esc(row.note)}</p><small>${esc(row.reviewed_by)} · ${esc(stamp(row.reviewed_at))}</small>${proof({...row,stance:row.decision},documents)}</article>`).join('')||'<p>검토 결과가 아직 기록되지 않았습니다.</p>'}</details>
       <details class="hypothesis-candidates"><summary>현재 범위의 미검토 후보 ${pending.length}개</summary>${pending.map(row=>`<article><span class="chip">${esc(kinds[row.candidate_kind]||'원문 검토 후보')}</span><p>공개 ${esc(row.published_at?.slice(0,10)||'시점 미확인')} · 확보 ${esc(stamp(row.recorded_at))}</p>${proof(row,documents)}</article>`).join('')||'<p>현재 확인한 범위에서 미검토 후보가 없습니다.</p>'}</details>
       <button class="quiet small" data-export-hypothesis="${esc(hypothesis.id)}">이전 판단과 근거 비교 내보내기</button>
+      ${window.RadarReview?.render(hypothesis,documents)||''}
     </section>`;
   }
   window.RadarHypothesis={renderChanges};

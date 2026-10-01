@@ -166,5 +166,6 @@
   $('#signal-reading').addEventListener('keydown',e=>{if(!e.target.closest('.reading-tabs')||!['ArrowLeft','ArrowRight'].includes(e.key))return;const tabs=[...document.querySelectorAll('.reading-tabs [data-story]')],i=tabs.indexOf(e.target),next=tabs[(i+(e.key==='ArrowRight'?1:tabs.length-1))%tabs.length];next.click();e.preventDefault()});
   let resizeFrame;
   new ResizeObserver(()=>{cancelAnimationFrame(resizeFrame);resizeFrame=requestAnimationFrame(()=>requestAnimationFrame(()=>{applyRange();if(innerWidth>1250&&$('#inspector').classList.contains('open'))closeInspector()}))}).observe($('#chart'));
+  window.RadarReview?.bind(document,D.hypotheses,exportJSON);
   colorTheme();render();
 })();
