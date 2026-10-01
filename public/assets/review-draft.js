@@ -71,7 +71,7 @@
       const h=hypotheses.find(h=>h.id===panel.dataset.reviewHypothesis),form=panel.querySelector('form');
       return makeDraft(h,evidenceFor(h).find(r=>r.span_id===form.elements.span_id.value),form.elements.decision.value,form.elements.note.value,form.elements.reviewed_by.value);
     }
-    function save(panel,d){localStorage.setItem(key(d.hypothesis_id),JSON.stringify(d));panel.querySelector('.review-status').textContent='이 브라우저에 저장했습니다. 공개 가설과 영구 기록은 변경되지 않았습니다.'}
+    function save(panel,d){localStorage.setItem(key(d.hypothesis_id),JSON.stringify(d));panel.querySelector('summary').textContent='내 검토 초안 작성 · 저장된 초안';panel.querySelector('.review-status').textContent='이 브라우저에 저장했습니다. 공개 가설과 영구 기록은 변경되지 않았습니다.'}
     root.addEventListener('submit',e=>{
       if(!e.target.matches('.review-draft-form'))return;e.preventDefault();const panel=e.target.closest('.review-draft');
       try{save(panel,collect(panel))}catch(error){panel.querySelector('.review-status').textContent=['QuotaExceededError','SecurityError'].includes(error.name)?'브라우저에 저장할 수 없습니다. 파일로 내려받아 보관하세요.':error.message}
@@ -82,7 +82,7 @@
       try{
         if(button.hasAttribute('data-download-review')){const d=collect(panel);download('radar-review-draft-'+d.hypothesis_id+'.json',d);status.textContent='검토 초안 파일을 내려받았습니다. 로컬 검증·반영 전까지 공개 가설은 바뀌지 않습니다.'}
         if(button.hasAttribute('data-old-review')){const d=read(panel.dataset.reviewHypothesis);if(d)download('radar-review-draft-old-'+d.hypothesis_id+'.json',d)}
-        if(button.hasAttribute('data-clear-review')){localStorage.removeItem(key(panel.dataset.reviewHypothesis));working.delete(panel.dataset.reviewHypothesis);const form=panel.querySelector('form');form.reset();form.elements.note.value='';form.elements.reviewed_by.value='';form.elements.decision.value='';setup(panel);status.textContent='브라우저에 저장된 초안을 지웠습니다. 내려받은 파일은 남아 있습니다.'}
+        if(button.hasAttribute('data-clear-review')){localStorage.removeItem(key(panel.dataset.reviewHypothesis));working.delete(panel.dataset.reviewHypothesis);const form=panel.querySelector('form');form.reset();form.elements.note.value='';form.elements.reviewed_by.value='';form.elements.decision.value='';setup(panel);panel.querySelector('summary').textContent='내 검토 초안 작성';status.textContent='브라우저에 저장된 초안을 지웠습니다. 내려받은 파일은 남아 있습니다.'}
       }catch(error){status.textContent=error.message}
     });
   }
